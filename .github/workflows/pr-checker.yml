@@ -39,6 +39,12 @@ jobs:
           base: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Auto approve bot PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: hmarr/auto-approve-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Enable auto-merge for PR
         if: steps.cpr.outputs.pull-request-number != ''
         uses: peter-evans/enable-pull-request-automerge@v3
