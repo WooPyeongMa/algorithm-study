@@ -44,6 +44,7 @@ jobs:
         uses: hmarr/auto-approve-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
 
       - name: Enable auto-merge for PR
         if: steps.cpr.outputs.pull-request-number != ''
