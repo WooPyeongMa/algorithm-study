@@ -42,6 +42,12 @@ algorithm-study/
 
 4. **GitHub에서 PR 생성** : PR을 만들면 자동으로 PR 템플릿이 생성되며, 문제 요약, 코드 설명, 리뷰 요청사항을 작성합니다.
 <div align="center">
+   <img src=".github/images/description0.jpg" width="500"/>
+</div>
+<div align="center">
+   <img src=".github/images/description01.jpg" width="500"/>
+</div>
+<div align="center">
    <img src=".github/images/description1.jpg" width="500"/>
 </div>
 
@@ -63,7 +69,7 @@ algorithm-study/
 - 그후, **Approve**를 체크한 후, **Submit review** 버튼을 눌러 리뷰를 제출합니다.
 
 <div align="center">
-   <img src=".github/images/description3.jpg" width="300"/>
+   <img src=".github/images/description3.jpg" width="500"/>
 </div>
 
 6. **Merge** : **PR 작성자가 Merge**를 진행합니다.
@@ -90,3 +96,7 @@ algorithm-study/
   git checkout main
   git pull origin main
   ```
+
+<!--PR_TABLE_START-->
+
+<!--PR_TABLE_END-->
