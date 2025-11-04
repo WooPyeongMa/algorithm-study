@@ -1,8 +1,8 @@
 //
-//  2025-10-30_baekjoon_10808.c++
+//  2025-11-03_baekjoon_10807.c++
 //  algorithm
 //
-//  Created by 김채현 on 10/31/25.
+//  Created by 김채현 on 11/03/25.
 //
 
 #include <iostream>
@@ -14,8 +14,7 @@ using namespace std;
 vector<int> v;
 
 int main(void) {
-    int n, sum;
-    int left=0, right=0;
+    int n, target;
     int result = 0;
     
     cin >> n;
@@ -24,19 +23,12 @@ int main(void) {
         cin >> input;
         v.push_back(input);
     }
-    cin >> sum;
+    cin >> target;
     
     sort(v.begin(), v.end());
     
-    right = n - 1;
-    while(left < right){
-        if(v[left] + v[right] == sum){
-            left++;
-            right--;
-            result++;
-        }
-        else if(v[left] + v[right] < sum) left++;
-        else right--;
+    for(int i = 0; i < n; i++){
+        if(v[i] == target) result++;
     }
     
     cout << result;
