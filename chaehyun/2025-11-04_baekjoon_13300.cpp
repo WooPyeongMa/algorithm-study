@@ -1,8 +1,8 @@
 //
-//  2025-10-30_baekjoon_10808.c++
+//  2025-11-04_baekjoon_13300.c++
 //  algorithm
 //
-//  Created by 김채현 on 10/31/25.
+//  Created by 김채현 on 11/04/25.
 //
 
 #include <iostream>
