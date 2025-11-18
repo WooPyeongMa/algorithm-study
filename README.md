@@ -100,7 +100,6 @@ algorithm-study/
 <!--PR_TABLE_START-->
 | Date       | <img src="https://avatars.githubusercontent.com/u/121813936?v=4" width="20" height="20"/><br/>Chxxhn | <img src="https://avatars.githubusercontent.com/u/117421342?v=4" width="20" height="20"/><br/>Daexvk |
 |------------|:---:|:---:|
-| 2025-11-03 | ❌ | ✅ |
 | 2025-11-04 | ✅ | ✅ |
 | 2025-11-05 | ✅ | ✅ |
 | 2025-11-06 | ✅ | ✅ |
@@ -115,4 +114,5 @@ algorithm-study/
 | 2025-11-15 | ❌ | ❌ |
 | 2025-11-16 | ❌ | ❌ |
 | 2025-11-17 | ❌ | ❌ |
+| 2025-11-18 | ❌ | ❌ |
 <!--PR_TABLE_END-->
